@@ -1,0 +1,119 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estructura de la página */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+/* Caja 1: Sección de ingreso y botones */
+.display {
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    background: white;
+    padding: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#adicionar {
+    background-color: #28a745;
+    color: white;
+}
+
+#sortear {
+    background-color: #007bff;
+    color: white;
+}
+
+#terminar {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Caja 2: Tabla de amigos (se ajusta dinámicamente) */
+.tabla-container {
+    flex: 1;
+    padding-left: 20px;
+    transition: all 0.3s ease;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Ajuste dinámico del tamaño de fuente de los nombres */
+.tabla-container td {
+    font-size: 16px;
+}
+
+.tabla-container .small-text {
+    font-size: 12px;
+}
+
+/* Caja 3: Resultados y foto (se mantiene fija) */
+.result-container {
+    flex: 1;
+    text-align: center;
+}

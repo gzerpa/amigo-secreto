@@ -45,9 +45,6 @@ Cada una de estas cajas está **delimitada con un borde negro** para mejorar la 
 │── 📝 README.md       # Documentación del proyecto
 ```
 
-## 🖼️ Captura de Pantalla
-
-_Aquí puedes agregar una captura de pantalla del proyecto funcionando._
 
 ## 📌 Mejoras Futuras
 

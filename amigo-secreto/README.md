@@ -24,8 +24,6 @@ El proyecto está organizado en **tres cajas separadas** para una mejor visualiz
 2. **Caja de Lista de Amigos**: Muestra los nombres ingresados en una tabla ordenada.  
 3. **Caja de Resultado**: Contiene la imagen del "Amigo Secreto" y el resultado del sorteo.  
 
-Cada una de estas cajas está **delimitada con un borde negro** para mejorar la visualización y mantener la estructura clara.
-
 ## 🚀 Cómo Usar
 
 1. **Ingresar nombres** en la caja de texto y hacer clic en el botón **"Adicionar"**.  
